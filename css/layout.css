@@ -325,85 +325,169 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
+.langc {
   	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: langc 2s ease;
+  	-webkit-animation: langc 2s ease;
+}
+.langcsharp {
+  	width: 70%;
+  	-moz-animation: langcsharp 2s ease;
+  	-webkit-animation: langcsharp 2s ease;
+}
+.langcpp {
+  	width: 85%;
+  	-moz-animation: langcpp 2s ease;
+  	-webkit-animation: langcpp 2s ease;
+}
+.langruby {
+  	width: 70%;
+  	-moz-animation: langruby 2s ease;
+  	-webkit-animation: langruby 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 55%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.langjava {
+  	width: 65%;
+  	-moz-animation: langjava 2s ease;
+  	-webkit-animation: langjava 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+.embeddedsystems {
+  	width: 80%;
+  	-moz-animation: langjava 2s ease;
+  	-webkit-animation: langjava 2s ease;
 }
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
+
+.encryption {
+  	width: 55%;
+  	-moz-animation: langjava 2s ease;
+  	-webkit-animation: langjava 2s ease;
 }
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+
+.microcontrollers {
+  	width: 85%;
+  	-moz-animation: langjava 2s ease;
+  	-webkit-animation: langjava 2s ease;
 }
-@-moz-keyframes css {
+
+.agiledevelopment {
+  	width: 80%;
+  	-moz-animation: langjava 2s ease;
+  	-webkit-animation: langjava 2s ease;
+}
+
+.deeplearning {
+  	width: 65%;
+  	-moz-animation: langjava 2s ease;
+  	-webkit-animation: langjava 2s ease;
+}
+
+.hardware {
+  	width: 75%;
+  	-moz-animation: langjava 2s ease;
+  	-webkit-animation: langjava 2s ease;
+}
+
+@-moz-keyframes langc {
   0%   { width: 0px;  }
   100% { width: 90%;  }
+}
+@-moz-keyframes langcsharp {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes langcpp {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-moz-keyframes langruby {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-webkit-keyframes wordpress {
+@-moz-keyframes langjava {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 65%;  }
 }
-@-webkit-keyframes css {
+@-moz-keyframes embeddedsystems {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes html5 {
+@-moz-keyframes encryption {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-moz-keyframes microcontrollers {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-moz-keyframes agiledevelopment {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-moz-keyframes deeplearning {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 65%;  }
+}
+@-moz-keyframes hardware {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+
+@-webkit-keyframes langc {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes langcsharp {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes langcpp {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-webkit-keyframes langruby {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-webkit-keyframes langjava {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }
+}
+@-webkit-keyframes embeddedsystems {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes encryption {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-webkit-keyframes microcontrollers {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-webkit-keyframes agiledevelopment {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes deeplearning {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }
+}
+@-webkit-keyframes hardware {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
 }
 
 /* ------------------------------------------------------------------ */
