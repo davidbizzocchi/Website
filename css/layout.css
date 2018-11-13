@@ -882,6 +882,14 @@ call-to-action .button {
 #contact a, #contact a:visited  { color: #11ABB0; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
+#contact mark.contact_me {
+    color:#FFFFFF;
+    background: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
