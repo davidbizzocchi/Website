@@ -460,7 +460,8 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="mailto:david.bizzocchi@gmail.com" method="post" enctype="text/plain" id="contactForm" name="contactForm">
+               <!--<form action="mailto:david.bizzocchi@gmail.com" method="post" enctype="text/plain" id="contactForm" name="contactForm">-->
+			   <form action="mailto:david.bizzocchi@gmail.com" method="post" enctype="text/plain">
 					<fieldset>
 
                   <div>
@@ -484,14 +485,15 @@
                   </div>
 
                   <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
+				  <label for=""> </label>
+					<input type="submit" value="Submit">
+                    <span id="image-loader">
+                    <img alt="" src="images/loader.gif">
+                    </span>
                   </div>
 
 					</fieldset>
-				   </form> <!-- Form End -->
+				</form> <!-- Form End -->
 
                <!-- contact-warning -->
                <div id="message-warning"> Error with contact</div>
