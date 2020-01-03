@@ -355,59 +355,64 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: langjava 2s ease;
   	-webkit-animation: langjava 2s ease;
 }
+.langpython {
+  	width: 40%;
+  	-moz-animation: langpython 2s ease;
+  	-webkit-animation: langpython 2s ease;
+}
 
 .embeddedsystems {
   	width: 80%;
-  	-moz-animation: langjava 2s ease;
-  	-webkit-animation: langjava 2s ease;
+  	-moz-animation: embeddedsystems 2s ease;
+  	-webkit-animation: embeddedsystems 2s ease;
 }
 
 .encryption {
   	width: 55%;
-  	-moz-animation: langjava 2s ease;
-  	-webkit-animation: langjava 2s ease;
+  	-moz-animation: encryption 2s ease;
+  	-webkit-animation: encryption 2s ease;
 }
 
 .microcontrollers {
   	width: 85%;
-  	-moz-animation: langjava 2s ease;
-  	-webkit-animation: langjava 2s ease;
+  	-moz-animation: microcontrollers 2s ease;
+  	-webkit-animation: microcontrollers 2s ease;
 }
 
 .agiledevelopment {
   	width: 80%;
-  	-moz-animation: langjava 2s ease;
-  	-webkit-animation: langjava 2s ease;
+  	-moz-animation: agiledevelopment 2s ease;
+  	-webkit-animation: agiledevelopment 2s ease;
 }
 
 .deeplearning {
   	width: 60%;
-  	-moz-animation: langjava 2s ease;
-  	-webkit-animation: langjava 2s ease;
+  	-moz-animation: deeplearning 2s ease;
+  	-webkit-animation: deeplearning 2s ease;
 }
 
 .hardware {
   	width: 75%;
-  	-moz-animation: langjava 2s ease;
-  	-webkit-animation: langjava 2s ease;
+  	-moz-animation: hardware 2s ease;
+  	-webkit-animation: hardware 2s ease;
 }
 
 .commUSB {
   	width: 65%;
-  	-moz-animation: langjava 2s ease;
-  	-webkit-animation: langjava 2s ease;
+  	-moz-animation: commUSB 2s ease;
+  	-webkit-animation: commUSB 2s ease;
 }
 
 .commTCPIP {
   	width: 80%;
-  	-moz-animation: langjava 2s ease;
-  	-webkit-animation: langjava 2s ease;
+  	-moz-animation: commTCPIP 2s ease;
+  	-webkit-animation: commTCPIP 2s ease;
 }
 
 .commWireless {
   	width: 60%;
-  	-moz-animation: langjava 2s ease;
-  	-webkit-animation: langjava 2s ease;
+  	-moz-animation: commWireless 2s ease;
+  	-webkit-animation: commWireless 2s ease;
 }
 
 @-moz-keyframes langc {
@@ -475,6 +480,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
+@-webkit-keyframes langpython {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
   100% { width: 55%;  }
@@ -506,6 +515,18 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes hardware {
   0%   { width: 0px;  }
   100% { width: 75%;  }
+}
+@-webkit-keyframes commUSB {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }
+}
+@-webkit-keyframes commTCP {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes commWireless {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
 }
 
 /* ------------------------------------------------------------------ */
