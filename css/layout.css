@@ -336,7 +336,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: langcsharp 2s ease;
 }
 .langcpp {
-  	width: 85%;
+  	width: 95%;
   	-moz-animation: langcpp 2s ease;
   	-webkit-animation: langcpp 2s ease;
 }
@@ -381,13 +381,31 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .deeplearning {
-  	width: 65%;
+  	width: 60%;
   	-moz-animation: langjava 2s ease;
   	-webkit-animation: langjava 2s ease;
 }
 
 .hardware {
   	width: 75%;
+  	-moz-animation: langjava 2s ease;
+  	-webkit-animation: langjava 2s ease;
+}
+
+.commUSB {
+  	width: 65%;
+  	-moz-animation: langjava 2s ease;
+  	-webkit-animation: langjava 2s ease;
+}
+
+.commTCPIP {
+  	width: 80%;
+  	-moz-animation: langjava 2s ease;
+  	-webkit-animation: langjava 2s ease;
+}
+
+.commWireless {
+  	width: 60%;
   	-moz-animation: langjava 2s ease;
   	-webkit-animation: langjava 2s ease;
 }
