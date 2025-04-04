@@ -340,10 +340,10 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: langcpp 2s ease;
   	-webkit-animation: langcpp 2s ease;
 }
-.langruby {
-  	width: 70%;
-  	-moz-animation: langruby 2s ease;
-  	-webkit-animation: langruby 2s ease;
+.langsql {
+  	width: 40%;
+  	-moz-animation: langsql 2s ease;
+  	-webkit-animation: langsql 2s ease;
 }
 .html5 {
   	width: 55%;
@@ -351,7 +351,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: html5 2s ease;
 }
 .langjava {
-  	width: 65%;
+  	width: 75%;
   	-moz-animation: langjava 2s ease;
   	-webkit-animation: langjava 2s ease;
 }
